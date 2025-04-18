@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: linear-gradient(to right , rgb(149, 149, 226), rgb(255, 252, 252));
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-nav button{
+    font-weight: 700;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+.navbar-nav{
+    gap: 25px;
+}
+
+.hero-section{
+    background: linear-gradient(to right , rgb(149, 149, 226), rgb(255, 253, 253));
+}
+
+.primary-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.logo-container, .AI-container, .account, .cookies{
+    background-color: gainsboro;
+}
+.Password-section, .company, .demo, footer{
+    background-color: rgb(4, 4, 46);
+}
+.logo-img img{
+    width: 150px;
+}
+.globe{
+    width: 400px;
+    height: auto;
+}
+.AI{
+    width: 400px;
+}
+.mobile{
+    width: 300px;
+    height: auto;
+}
+.secondary-heading{
+    font-size: 49px;
+}
+.text::before{
+    content: "|";
+    font-size: 40px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+ 
+.OwnID-box{
+    width: 100%;
+    background: linear-gradient(to right , rgba(108, 108, 165, 0.24), rgba(71, 57, 192, 0.267));
+    margin-top: -110px;
+    border-radius: 10px;
+} 
+.icons{
+     width: 30px;
+}
+.card-logo{
+    width: 80px;
+}
+ 
+.fa-slack{
+    font-size: 330px;
+    color: rgb(78, 73, 119);
+    z-index: 1;
+    margin-top: -150px;
+    opacity: .1;
+}
+
+.footer-box ul{
+    list-style: none;
+}
+
+.footer-link a:link,.footer-link:visited{
+    text-decoration: none;
+    color: white;
+}
